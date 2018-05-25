@@ -32,18 +32,23 @@ section p {
 section article {
   margin-top: 40px;
 }
-aside {
-  margin-top: 10px;
+.codeSnip p {
+  text-align: center;
 }
-@media (max-width: 800px) {
-  aside img {
-    width: 50%;
-    margin-left: 25%;
-  }
+.codeSnip .codeExample {
+  margin-top: 30px;
+}
+.lessInstall {
+  margin-top: 30px;
 }
 footer {
   width: 100%;
   bottom: 0;
-  background-color: blue;
+  background-color: #ffc107;
   height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+footer h5 {
+  line-height: 100px;
 }
