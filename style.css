@@ -22,15 +22,39 @@ nav {
 nav .link-box {
   display: grid;
 }
+@media (min-width: 1100px) {
+  nav .link-box {
+    display: block;
+  }
+}
 nav .link-box button {
   height: 100px;
   margin-top: 5px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 25px;
+}
+@media (min-width: 1200px) {
+  nav .link-box button {
+    width: 25%;
+    margin: 15px 0 15px 0;
+    font-weight: 20px;
+  }
 }
 section p {
   font-size: 20px;
 }
 section article {
   margin-top: 40px;
+}
+img {
+  width: 80%;
+  margin-top: 30px;
+}
+@media (min-width: 1100px) {
+  img {
+    width: 40%;
+  }
 }
 .codeSnip p {
   text-align: center;
@@ -40,6 +64,12 @@ section article {
 }
 .lessInstall {
   margin-top: 30px;
+}
+@media (min-width: 1100px) {
+  .jumbotron {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 footer {
   width: 100%;
