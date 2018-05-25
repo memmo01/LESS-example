@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+header {
+  height: 700px;
+  background-image: url("moreBackground.jpg");
+  background-size: cover;
+  background-position: 50%,0;
+}
+header #title {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+nav {
+  width: 100%;
+  background-color: #decba5;
+  text-align: center;
+}
+nav .link-box {
+  display: grid;
+}
+nav .link-box button {
+  height: 100px;
+  margin-top: 5px;
+}
+section p {
+  font-size: 20px;
+}
+section article {
+  margin-top: 40px;
+}
+aside {
+  margin-top: 10px;
+}
+@media (max-width: 800px) {
+  aside img {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  background-color: blue;
+  height: 100px;
+}
